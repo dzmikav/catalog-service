@@ -9,6 +9,7 @@ jobs:
       contents: read
       security-events: write
       id-token: write
+      actions: read
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
